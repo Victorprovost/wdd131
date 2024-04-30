@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header haeder"
+        " main aside aside"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-area: header;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
