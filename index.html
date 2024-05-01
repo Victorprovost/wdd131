@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title> WDD 131-Dynamic Web Fundamentals- Victor Provost </title>
+    <link rel ="stylesheet" href="styles/base.css">
+    <script src="getdates.js" defer></script>
+    <meta description="WDD 131 - Dynamic Web Fundamentals
+                        Victor Provost
+                        The home page of the WDD 131 course">
+    <meta author="Victor Provost">
+    
 </head>
+
 <body>
-    <h1>wdd 131 - Victor Provost</h1>
+    <header>
+        <h1> WDD 131-Dynamic Web Fundamentals</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/victor-provost2001">Linkedin</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
+                </li>
+                <li><a href="final-project.html">Final Project</a>"</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile">
+            <p>Hello, my name is Victor. I was born in Nigeria and current live in the capital city Abuja.
+                I am a student of Brigham Young University and pursuing a degree in Computer Science.
+                I love listenting to music and reading during my spare time.
+            </p>
+            <a href="Linkedin">Linkedin</a>
+            <a href="Scripture">Scripture</a>
+            <a href="final-project">Final Project</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="currentYear"></span> Victor Provost _ Abuja </p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
