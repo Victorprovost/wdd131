@@ -43,8 +43,18 @@
     </main>
 
     <footer>
-        <p>© <span id="currentYear"></span> Victor Provost _ Abuja </p>
-        <p id="lastModified"></p>
+        <<div class="static-info">
+            <p>&copy; 2024 Victor Provost. All rights reserved.</p>
+        </div>
+        <div id="last-modified-date"></div>
+        <div id="last-modified-time"></div>
+        <script>
+            const lastModifiedDate = document.getElementById('last-modified-date');
+            const lastModifiedTime = document.getElementById('last-modified-time');
+
+            lastModifiedDate.textContent = 'May 6, 2024';
+            lastModifiedTime.textContent = '12:55 PM';
+        </script>
     </footer>
 </body>
 
