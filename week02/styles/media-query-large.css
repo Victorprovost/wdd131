@@ -5,10 +5,7 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 1rem;
         background-color: #000;
-        /* Black background */
         color: #fff;
-        /* White text */
+       
     }
 }
-
-grid-template-columns: 1fr 1fr;
