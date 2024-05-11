@@ -12,7 +12,6 @@ body {
     padding: 0;
 }
 
-/* Navigation styles */
 nav {
     background-color: #333;
     padding: 1rem;
@@ -36,10 +35,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #4CAF50;
-    /* Hover effect color */
 }
 
-/* Main content styles */
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -62,7 +59,7 @@ main {
 }
 
 .card img {
-    width: 100%;
+    width: fit-content;
     height: auto;
     border-radius: 5px;
     margin-bottom: 16px;

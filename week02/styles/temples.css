@@ -8,10 +8,6 @@
     padding: 1rem;
 }
 
-.logo img {
-    max-width: 100px;
-}
-
 .nav-links {
     list-style: none;
     display: flex;
