@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place page</title>
+    <link rel="stylesheet" href="week03/styles/place.css">
+    <script src="week03/scripts/place.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+           <h1> Saltlake-city </h1>
+        </header>
+        <main>
+            <section class="hero">
+               <figure>
+                   <img src="week03/images/hero-large.webp" alt="Salt Lake City">
+                   <figcaption>Beautiful viwe of Salt Lake City</figcaption>
+               </figure>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <div class="weather-icon">
+                    <img src="week03/images/weather_sunny_icon.jpg" alt="Sunny">
+                </div>
+                <p><strong>Temperature:</strong> 10°C</p>
+                <p><strong>Conditions:</strong> Sunny</p>
+                <p id="windChill"><strong>Wind Chill:</strong> Not available</p>
+
+            </section>
+            <section class="city-data">
+                <h2>Data</h2>
+                <p><strong>Language:</strong> English</p>
+                <p><strong>Area:</strong> 111 square miles</p>
+                <p><strong>Population:</strong> 200,478</p>
+                <p><strong>Capital:</strong> Utah</p>
+                <p><strong>Currency:</strong> US Dollar (USD)</p>
+                <p><strong>Time Zone:</strong> Mountain Daylight Time (MDT) UTC-6</p>
+                <p><strong>Calling Code:</strong> 801, 385</p>
+                <p><strong>Internet TLD:</strong> .us</p>
+            </section>
+
+            
+        </main>
+        <footer>
+            <div class="static-info">
+                <p>&copy; 2024 Victor Provost. All rights reserved.</p>
+            </div>
+            <div id="last-modified-date"></div>
+            <div id="last-modified-time"></div>
+            <script>
+                const lastModifiedDate = document.getElementById('last-modified-date');
+                const lastModifiedTime = document.getElementById('last-modified-time');
+
+                lastModifiedDate.textContent = 'May 6, 2024';
+                lastModifiedTime.textContent = '12:55 PM';
+            </script>
+        </footer>
+    </div>
+    
+</body>
+</html>
