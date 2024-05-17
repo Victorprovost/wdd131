@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy-Loading-Page</title>
+    <link rel="stylesheet" href="week03/styles/lazyload.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy-Loading-Page</h1>
+
+    </header>
+    <main>
+        <picture>
+            <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+        <picture>
+            <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+        <picture>
+            <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+        <picture>
+            <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+        <picture>
+            <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+        <picture>
+             <img src="https://placedog.net/300/300" alt="Dog" loading="lazy" width="400">
+        </picture>
+
+    </main>
+    <footer>
+        <div class="static-info">
+            <p>&copy; 2024 Victor Provost. All rights reserved.</p>
+        </div>
+        <div id="last-modified-date"></div>
+        <div id="last-modified-time"></div>
+        <script>
+            const lastModifiedDate = document.getElementById('last-modified-date');
+            const lastModifiedTime = document.getElementById('last-modified-time');
+
+            lastModifiedDate.textContent = 'May 6, 2024';
+            lastModifiedTime.textContent = '12:55 PM';
+        </script>
+
+    </footer>
+
+</body>
+
+</html>
