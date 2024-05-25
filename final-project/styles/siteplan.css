@@ -1,0 +1,34 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #2c3e50;
+}
+
+.site-name {
+    font-weight: bold;
+}
+
+.color-sample {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+}
