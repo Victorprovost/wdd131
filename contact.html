@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor Provost">
+    <meta name="description" content="Institute Access Enroll">
+    <link rel="stylesheet" href="final-project/styles/landing-page.css">
+    <link rel="stylesheet" href="final-project/styles/landing-page-large.css">
+    <script src="final-project/scripts/landing-page.js" defer></script>
+
+    <title>Institute Access Enroll</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo-container">
+            <img src="final-project/images/logo.jpg" class="logo" alt="institute logo">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="landing-page.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-team">
+            <h1>Reach Our Team</h1>
+            <p>We love questions and feedback - and we're always happy to help! <br> Here are some ways to contact us.
+            </p>
+        </section>
+        <section class="address-container">
+            <h2>Visit Us</h2>
+            <p>classes are on from Monday - Friday, 10am - 6pm. <br> there are no classes on weekends and holidays.</p>
+            <div class="address-box">
+                <div>
+                    <h3>Abuja Wuse Campus</h3>
+                    <h4>Abuja, Nigeria</h4>
+                    <ul class="address">
+                        <li><i class="fa-solid fa-location-dot"></i>
+                            <p>123, Park Avenue,Zone 5, Wuse II, Abuja</p>
+                        </li>
+                        <li><i class="fa-solid fa-envelope"></i>
+                            <p>Victorop007@gmail.com</p>
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i>
+                            <p>+2247087373945</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15760.239570162441!2d7.470594399999999!3d9.058301749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1717174061501!5m2!1sen!2sng"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                </div>
+        </section>
+
+        <section class="posters">
+            <h2>what goes on in the institute</h2>
+            <div class="activity">
+                <div class="activities">
+                    <img src="final-project/images/weekly-classes.jpg" loading="lazy" alt="Activities">
+                    <h4>Class Calandar</h4>
+                </div>
+                <div class="activities">
+                    <img src="final-project/images/activities.jpg" loading="lazy" alt="Activities">
+                    <h4>Community Service Activity</h4>
+                </div>
+                <div class="activities">
+                    <img src="final-project/images/elder-holland.jpg" loading="lazy" alt="Activities">
+                    <h4>elder Jeffrey R. Holland</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="form-container">
+            <h2>Send Us a Message</h2>
+            <p>Send us a message and we'll respond within 24 hours</p>
+            <form action="post">
+                <ul class="name-data">
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    </li>
+                </ul>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <ul class="selection">
+                        <li>
+                            <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+                            <label for="inquiry">General Inquiry</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+        <footer class="container">
+            <p>&copy; 2024 Victor Provost | Dynamic Web Fundamentals.| All rights reserved.</p>
+        
+            <div class="footer-img">
+                <a href="https://www.linkedin.com/in/victor-provost2001">Linkedin</a></li><img
+                    src="final-project/images/linkedin.jpg" alt="linkedin"></a>
+            </div>
+        </footer>
+</body>
+</html>
+    
